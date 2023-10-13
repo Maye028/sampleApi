@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.coffee-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.coffee-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.coffee-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.coffee-description {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.coffee-ingredients {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
